@@ -12,7 +12,17 @@
 
 ## What is YAML?
 
-asdfdasf
+**YAML ain't markup language**.
+
+YAML is:
+
+- Data format used to exchange data
+
+- Similar to XML & JSON
+
+- Store only data, not commands
+
+- Storing is called **Data Serialization**
 
 ## Course Reference
 
