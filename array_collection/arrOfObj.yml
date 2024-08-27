@@ -1,0 +1,6 @@
+# Example of array of objects
+one:
+  - id: 1
+    name: franc
+  - id: 11
+    name: Tom

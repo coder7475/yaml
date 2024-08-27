@@ -3,8 +3,8 @@
 **Types**:
 
 - Array of Scalar Items
-- Nested Array
 - Array of objects
+- Nested Array
 - String array
 - Object with values as an arrays
 - empty array and objects
@@ -49,6 +49,37 @@ The JSON Representation of it:
     "value3",
     "value4",
     "value5"
+  ]
+}
+```
+
+## Array of Objects
+
+Objects contain multiple key and value pairs. An array of objects contains an object list.
+
+Example:
+
+```bash
+    one:
+    - id: 1
+        name: franc
+    - id: 11
+        name: Tom
+```
+
+Equivalent to:
+
+```bash
+    {
+  "one": [
+    {
+      "id": 1,
+      "name": "franc"
+    },
+    {
+      "id": 11,
+      "name": "Tom"
+    }
   ]
 }
 ```
