@@ -127,3 +127,24 @@ Equivalent to:
   ]
 }
 ```
+
+## Arrays of String in YAML
+
+Strings contain a group of characters. It is a scalar type in yaml.
+
+Keys in the string array are optional in YAML. Here is an example of an array of strings with keys.
+
+```bash
+    numbers: [  one,  two,  three,  four]
+```
+
+Arrays of strings without keys:
+
+```bash
+[
+  one,
+  two,
+  three,
+  four
+]
+```
