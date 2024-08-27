@@ -59,3 +59,5 @@ So YAML is a data serialization language.
 - [Complete YAML course](https://www.youtube.com/watch?v=IA90BTozdow&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=6)
 
 - [Doc](https://www.w3schools.io/file/yaml-introduction/)
+
+- [YAML Lint](https://www.yamllint.com/)
