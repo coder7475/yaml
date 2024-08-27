@@ -1,0 +1,5 @@
+# Cities of Bangladesh Represented as a scalar array
+cities:
+  - Dhaka
+  - Chittagong
+  - Rajshahi
