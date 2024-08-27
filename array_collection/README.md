@@ -148,3 +148,27 @@ Arrays of strings without keys:
   four
 ]
 ```
+
+## Arrays of Numbers
+
+Integers
+
+```bash
+    numbers: [
+  1,
+  2,
+  3,
+  4
+]
+```
+
+Floats:
+
+```bash
+    floatvalues: [
+  1.3,
+  2.2,
+  3,
+  4
+]
+```
