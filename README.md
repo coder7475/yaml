@@ -54,10 +54,48 @@ So YAML is a data serialization language.
 - Not much popular other than XML and JSON
 - It is very complex to represent configuration in the hierarchy of data
 
-## Course Reference
+## What is the file extension?
+
+yaml files are created with the extension `.yaml` or `.yml`. You can use any IDE or text editor to open this file.
+
+## What is the YAML media type?
+
+Media or MIME types are present in request headers with `Content-Type` and `Accept` during data transfer between systems.
+
+According to IANA , there is no official MIME type for YAML document content.
+
+However, it can be represented using MIME types such as `text/yaml`, `text/x-yaml`, or `application/x-yaml`.
+
+During the transfer of YAML data between a client and a server, implementation vendors include MIME type settings specified in requests and responses over the internet. The commonly used MIME format type for YAML is `text/yaml`.
+
+Following is the mime type for these documents
+
+```bash
+content-type: text/yaml
+```
+
+or
+
+```bash
+accepts: text/yaml
+```
+
+The other possible options include:
+
+- text/yaml
+- text/yml
+- text/x-yaml
+- application/yaml
+- application/yml
+
+The choice among these options depends on the browser and the supported programming language. For instance, **Chrome** accepts `application/yaml`.
+
+## References
 
 - [Complete YAML course](https://www.youtube.com/watch?v=IA90BTozdow&list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&index=6)
 
 - [Doc](https://www.w3schools.io/file/yaml-introduction/)
+
+## Tools
 
 - [YAML Lint](https://www.yamllint.com/)
