@@ -37,26 +37,22 @@ So YAML is a data serialization language.
 ## Benefits
 
 - Lightweight
-
 - Simple & Easy to Read
-
 - Friendly readable and writable
-
 - Strict syntax - indentation is important
-
 - Easily convertible to JSON, XML
-
 - Suitable for configuration settings
-
 - Used in most languages
-
 - Parsing is easy
-
 - Powerful when representing complex data
-
 - Simple to modify with any text editor
-
 - Many tools available
+
+## Disadvantages
+
+- It is a new format introduced recently, and a learning curve exists.
+- Not much popular other than XML and JSON
+- It is very complex to represent configuration in the hierarchy of data
 
 ## Course Reference
 
