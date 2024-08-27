@@ -172,3 +172,21 @@ Floats:
   4
 ]
 ```
+
+## Yaml objects with arrays
+
+The object contains key and value pairs. Value can be scalar or an array of scalar items.
+
+```bash
+author: Franc
+database:
+  driver: com.mysql.jdbc.Driver
+  port: 3306
+  dbname: students
+  username: root
+  password: root
+support:
+  - mysql
+  - MongoDB
+  - Postgres
+```
