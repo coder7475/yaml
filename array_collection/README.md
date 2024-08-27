@@ -83,3 +83,47 @@ Equivalent to:
   ]
 }
 ```
+
+## YAML nested arrays
+
+Arrays of Arrays are also called multi-dimensional arrays or nested arrays.
+
+Example of nested arrays using `indentation syntax` as below:
+
+```bash
+employees:
+    -
+        id: 213
+        name: franc
+        others:
+            - { department: sales, did: 1}
+            - { salary: 5000}
+            - { address: USA, pincode: 97845 }
+
+```
+
+Equivalent to:
+
+```bash
+    {
+  "employees": [
+    {
+      "id": 213,
+      "name": "franc",
+      "others": [
+        {
+          "department": "sales",
+          "did": 1
+        },
+        {
+          "Salary": 5000
+        },
+        {
+          "address": "USA",
+          "pincode": 97845
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,8 @@
+# Example of nested array
+employees:
+  - id: 213
+    name: franc
+    others:
+      - { department: sales, did: 1 }
+      - { salary: 5000 }
+      - { address: USA, pincode: 97845 }
