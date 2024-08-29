@@ -190,3 +190,80 @@ support:
   - MongoDB
   - Postgres
 ```
+
+## Dictionary in yaml example
+
+The dictionary contains keys and values
+
+Yaml Dictionary Two Types:
+
+1. Flow mapping
+2. Block mapping
+
+### Flow Mapping
+
+- key and value pairs are separated by a comma
+
+- Entire pairs are enclosed in `{}`
+
+- Syntax:
+
+```bash
+  # dictionary
+mysqldatabase: {
+    hostname: localhost,
+    port: 3012, username:root,
+    password: root
+}
+```
+
+### Block Mapping
+
+- Key and value pair are represented using colon `:`
+
+```bash
+# dictionary
+  mysqldatabase:
+    hostname: localhost
+    port: 3012
+    username: root
+    password: root
+```
+
+Equivalent json:
+
+```bash
+{
+  "mysqldatabase": {
+    "hostname": "localhost",
+    "port": 3012,
+    "username": "root",
+    "password": "root"
+  }
+}
+
+```
+
+## Empty Dictionary
+
+```bash
+employee: {}
+```
+
+OR
+
+```bash
+employee: null
+```
+
+## Empty Array
+
+```bash
+myvalue:""
+```
+
+OR
+
+```bash
+myvalue:[]
+```
