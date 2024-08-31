@@ -1,0 +1,14 @@
+# Flow mapping
+mysqldatabase: { 
+  hostname: localhost, 
+  port: 3012, 
+  username: root, 
+  password: root 
+}
+
+# Block Mapping
+mysqldatabase:
+  hostname: localhost
+  port: 3012
+  username: root
+  password: root
