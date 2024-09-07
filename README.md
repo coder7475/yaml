@@ -99,5 +99,5 @@ The choice among these options depends on the browser and the supported programm
 ## Tools
 
 - [YAML Lint](https://www.yamllint.com/)
-
+- [YAML VALIDATOR] (https://jsonformatter.org/yaml-validator)
 - [YAML to JSON](https://onlineyamltools.com/convert-yaml-to-json)
