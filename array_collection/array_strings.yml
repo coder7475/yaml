@@ -1,7 +1,0 @@
-# Example of array of strings
-
-# With key
-#? numbers: [one, two, three]
-
-# without key
-[one, two, three]
